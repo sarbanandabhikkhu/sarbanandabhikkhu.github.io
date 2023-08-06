@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import sarbanandabhikkhu from "/assets/sarbanandabhikkhu.png";
 
 function About() {
   return (
@@ -12,8 +13,8 @@ function About() {
         <h2 className="sm-heading">Let me tell you a few things...</h2>
         <div className="about-info">
           <img
-            src="https://avatars.githubusercontent.com/u/105801170?s=400&u=768e67c843441822df7e79d887a15e14b368b07d&v=4"
-            alt=""
+            src={sarbanandabhikkhu}
+            alt="SarbaNanda Bhikkhu"
             className="bio-image"
           />
           <div className="bio">

@@ -1,14 +1,14 @@
 const cacheName = "monk-v1";
 const staticAssets = [
-  "./",
-  "./index.html",
-  "./assets/monk.svg",
-  "./assets/logo.svg",
-  "./assets/maskable.svg",
-  "./assets/monk.gif",
-  "./assets/sarbanandabhikkhu.png",
-  "./manifest.json",
-  "./assets/*",
+  "/",
+  "/index.html",
+  "/assets/monk.svg",
+  "/assets/logo.svg",
+  "/assets/maskable.svg",
+  "/assets/monk.gif",
+  "/assets/sarbanandabhikkhu.png",
+  "/manifest.json",
+  "/assets",
   "https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;700&display=swap",
   "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
 ];
