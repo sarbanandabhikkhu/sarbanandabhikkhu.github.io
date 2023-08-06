@@ -1,3 +1,5 @@
+
+
 // menu button
 .menu-btn {
   position: absolute;
@@ -87,7 +89,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("https://avatars.githubusercontent.com/u/105801170?s=400&u=768e67c843441822df7e79d887a15e14b368b07d&v=4");
+      background: $portrait;
       background-attachment: fixed;
       background-size: cover;
       border: 3px solid $secondery-color;

@@ -9,12 +9,7 @@ function Contact() {
     const messege = document.querySelector("#messege").value;
     const subject = document.querySelector("#subject").value || "NO SUBJECT";
     const body = `Hello, my name is ${name}. My contact number is ${phone} and my email is ${email}. ${messege}`;
-
-    window.location.href =
-      "mailto:sarbanandabhikkhu@gmail.com?cc=sarbanandachakma@gmail.com,sarbanandadev@gmail.com&subject=" +
-      subject +
-      "&body=" +
-      body;
+    window.location.href = `mailto:sarbanandabhikkhu@gmail.com?cc=sarbanandachakma@gmail.com,sarbanandadev@gmail.com&subject=${subject}&body=${body}`;
   };
 
   return (
@@ -31,20 +26,17 @@ function Contact() {
             <div>
               <span className="text-secondery">
                 <i className="fas fa-phone-alt"></i>
-              </span>
-              +880 1865-061799
+              </span> +880 1865-061799
             </div>
             <div>
               <span className="text-secondery">
                 <i className="fas fa-envelope"></i>
-              </span>
-              sarbanandabhikkhu@gmail.com
+              </span> sarbanandabhikkhu@gmail.com
             </div>
             <div>
               <span className="text-secondery">
                 <i className="fas fa-address-book"></i>
-              </span>
-              Rngamati Hill Tract, Chittagong
+              </span> Rngamati Hill Tract, Chittagong
             </div>
           </div>
           <form>

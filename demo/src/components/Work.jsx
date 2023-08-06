@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import maskable from "/maskable.svg";
-import responsive from "../assets/responsive.svg";
-import website from "../assets/website.svg";
-import dynamicLogo from "../assets/dynamic-logo.svg";
-import sammapannaLogo from "../assets/sammapanna-logo.svg";
-import buddhaHead from "../assets/buddha-head.svg";
+import maskable from "/assets/maskable.svg";
+import responsive from "/assets/responsive.svg";
+import website from "/assets/website.svg";
+import dynamicLogo from "/assets/dynamic-logo.svg";
+import sammapannaLogo from "/assets/sammapanna-logo.svg";
+import buddhaHead from "/assets/buddha-head.svg";
 
 function Work() {
   return (

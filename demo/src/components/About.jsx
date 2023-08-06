@@ -4,7 +4,6 @@ import Footer from "./Footer";
 function About() {
   return (
     <>
-    
       <Header />
       <main id="about">
         <h1 className="lg-heading">

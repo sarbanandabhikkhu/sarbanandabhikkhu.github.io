@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import Header from "./Header";
+import Clock from "./Clock";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
             <i className="fab fa-youtube fa-2x"></i>
           </Link>
         </div>
+        <Clock/>
       </main>
     </>
   );

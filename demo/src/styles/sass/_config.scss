@@ -14,7 +14,8 @@
 $primary-color: #213547;
 $secondery-color: #ce8400;
 $show-home-image: true;
-$home-image: url("https://raw.githubusercontent.com/sarbanandabhikkhu/sarbanandabhikkhu/main/assets/monk.gif");
+$portrait: url("/assets/sarbanandabhikkhu.png"); /* https://avatars.githubusercontent.com/u/105801170?s=400&u=768e67c843441822df7e79d887a15e14b368b07d&v=4 */
+$home-image: url("/assets/monk.gif"); /* https://raw.githubusercontent.com/sarbanandabhikkhu/sarbanandabhikkhu/main/assets/monk.gif */
 $background-opacity: 0.5;
 
 @mixin easeOut {
