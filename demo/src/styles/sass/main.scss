@@ -12,8 +12,8 @@
 html,
 body {
   @include background;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   background: $primary-color;
   color: set-text-color($primary-color);
   font-size: 13px;
@@ -251,6 +251,20 @@ main {
         background-color: $secondery-color;
         border: 1px solid $secondery-color;
       }
+    }
+  }
+}
+
+.login {
+  font-size: 16px;
+
+  p:last-child {
+    margin-top: 50px;
+
+    a {
+      cursor: pointer;
+      font-weight: bold;
+      color: $secondery-color;
     }
   }
 }
