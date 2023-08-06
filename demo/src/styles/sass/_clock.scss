@@ -1,0 +1,38 @@
+svg.clock {
+  width: 200px;
+  margin: 0 auto;
+  display: none;
+
+  path {
+    fill: set-text-color($primary-color);
+    stroke: none;
+    opacity: 0.06;
+  }
+
+  .segment {
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+  }
+
+  .segment.on {
+    opacity: 1;
+  }
+
+  .separator {
+    opacity: 1;
+    animation: dots 1s infinite;
+  }
+
+  @keyframes dots {
+    0% {
+      opacity: 0.1;
+    }
+
+    50% {
+      opacity: 0.1;
+    }
+  }
+}
