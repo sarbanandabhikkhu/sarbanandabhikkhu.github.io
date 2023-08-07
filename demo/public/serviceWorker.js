@@ -1,4 +1,4 @@
-const cacheName = "monk-v1";
+const cacheName = "monk-v1.0.0";
 const staticAssets = [
   "/",
   "/index.html",
